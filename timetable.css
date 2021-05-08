@@ -1,0 +1,124 @@
+/*
+Copyright (C) 2015 Sanghyuck Lee <shlee322@elab.kr>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+.timetable {
+    padding: 0;
+}
+
+.timetable-time-label-td {
+    float:left;
+    width: 50px;
+}
+
+.timetable-time-label {
+    width: 50px;
+    height: 60px;
+    border: 1px solid #f5f5f5;
+    text-align:right;
+    font-size: 11px;
+}
+
+.timetable-lecture-table-div {
+}
+
+.timetable-lecture-etc-list {
+    height:24px;
+    padding-left: 100px;
+    background-color: #ffffff;
+    z-index:1000;
+    
+}
+
+.timetable-etc-item-group {
+    border: 1px solid #f5f5f5;
+    border-top: 0;
+    width: 0px;
+    overflow-x: auto;
+    background-color: #ffffff;
+}
+
+.timetable-etc-item {
+    margin: 3px 1px;
+    border: 1px solid #ffffff;
+    font-size: 11px;
+}
+
+.timetable-table {
+}
+
+.timetable-time-col {
+    float: left;
+    width: 60px;
+}
+
+.timetable-time-col-label {
+    width:58px;
+    text-align:center;
+}
+
+.timetable-time-col-div-1 {
+    height: 61px;
+    width:60px;
+    background-color : #ffffff;
+    border: 1px solid #f5f5f5;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.lecture-info {
+    text-align: center;
+    border: 1px solid #f8f8f8;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.lecture-info-timetable-data {
+    background-color: #e7e7e7;
+    color: #333333;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.lecture-info-tag {
+    white-space:normal;
+}
+
+.lecture-info-links {
+    margin-right: 3px;
+}
+
+.timetable-time-item {
+    position: absolute;
+    width: 50px;
+    border: 1px solid #ffffff;
+    font-size: 11px;
+}
+
+.timetable-time-item-subject {
+    font-weight: bold;
+}
+
+.timetable-generator-request-lectures {
+    height: 160px;
+    overflow-y:scroll;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.timetable-generator-request-lectures > .list-group {
+    margin-bottom: 0;
+}

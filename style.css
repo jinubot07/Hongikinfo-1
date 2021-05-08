@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+#main-container{
+    width:45%;
+    margin:10px auto;
+    float:left;
+}
+#timetable_search {
+    display:inline;
+    float:left;
+    display:flex;
+    box-sizing:border-box;
+}
+
+/* index.html */
+/*구글 웹폰트 적용하기 https://uxgjs.tistory.com/156 */
+.Info_title{
+    font-family: 'Noto Serif', serif;
+    font-size:60px;
+    text-align:center;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+a:hover{
+    color:red;
+}
+
+/*linear gradient https://aboooks.tistory.com/362*/
+.Hongikinfo, .logo {
+	background: #0470f3;
+	background: linear-gradient(to right, #0470fc, #000000);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-size: 75px;
+	font-weight: 100;
+}
+
+.Timetable_info{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 50px;
+    text-align:center;
+    color:rgb(0, 0, 0)
+
+}
+
+.Graduate_info{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 50px;
+    text-align:center;
+    color:black;
+
+}
+
+.Classnet_info{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 50px;
+    text-align:center;
+    color:black;
+
+}
+.footer{
+    left:0;
+    bottom:0;
+    width:100%;
+    color:#00162b;
+    text-align:center;
+}
+
+/* logo */
+
+.logo {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+    color:black;
+}
+.logo_hongikinfo{
+    font-family: 'Noto Serif', serif;
+    font-size:50px;
+    background: #0470f3;
+	background: linear-gradient(to right, #0470fc, #000000);
+    -webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+
+/* Timetable.html */
+.header{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:30px;
+}
+
+.scho, .maketable{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:20px;
+}
+
+#Timetable{
+    border: 1px solid;
+    width:800px;
+    height:250px;
+    border-collapse:collapse;
+    display:block;
+    overflow:auto;
+}
+
+th,td {
+    font-family: 'Nanum Gothic', sans-serif;
+    border: 1px solid;
+}
+
+.changeColor {
+    background-color: #bff0ff;
+}
+   
+.changeTimetableColor{
+    background-color: coral;
+}
+/* 표 그리기 */
+
+.Timetable_table  {border-collapse:collapse;border-spacing:0;}
+.Timetable_table td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 15px;word-break:normal;}
+.Timetable_table th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 15px;word-break:normal;}
+.Timetable_table .tg-baqh{text-align:center;vertical-align:top}
+.Timetable_table .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.Timetable_table .tg-0lax{text-align:left;vertical-align:top}
